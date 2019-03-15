@@ -12,17 +12,17 @@ class Square extends React.Component{
         let currentState= this.state.isOn;
         let pastState= state;
         if(currentState===false){
-           currentState===true; 
+           currentState=true; 
         }
         else {
-            currentState ===false;
+            currentState =false;
         }
         
         return pastState;
     }
     
     render(){
-        <div onClick={getIsOn} class="square">this.state.isOn</div>
+        return <div onClick={getIsOn} class="square">this.state.isOn</div>
     }
 }
 
