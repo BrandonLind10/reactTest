@@ -10,7 +10,7 @@ class Square extends React.Component{
     
     getIsOn(){
         let currentState= this.state.isOn;
-        let pastState= state;
+        let pastState= currentState;
         if(currentState===false){
            currentState=true; 
         }
